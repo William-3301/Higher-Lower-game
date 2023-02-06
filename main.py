@@ -1,6 +1,7 @@
 from random import randint
 from art import logo
-from game_data import data
+from art import vs
+from game_data import data 
 
 print(logo)
 print("\n")
@@ -18,9 +19,10 @@ while game_cont:
   
   print(data[choose_1]["name"], "a" , data[choose_1]["description"], "from", data[choose_1]["country"] )
   
-  print("\n")
+  print(vs)
   
   print(data[choose_2]["name"], "a" , data[choose_2]["description"], "from", data[choose_2]["country"] )
+  print("\n")
   
   user_choice = input("Who has more followers?").lower()
   
